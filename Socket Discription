@@ -1,0 +1,29 @@
+Definations:-
+
+1)Sockets:
+	it is an internet adress and end to end protocol(e.g:TCP|IP,UDP) And contains a port number.
+
+2)Server:
+	it passively waits for and responce to client and it is a passive socket.
+
+3)Client:
+	It initiates the communication and  it must know the address and port of the server. it is a active socket.
+
+
+Functionality:-
+
+1)Socket:	Creates a new communication end point.
+
+2)Bind:		Attach a local address to a socket.
+
+3)Listen:	Announce willingness to accept connection.
+
+4)Accept:	Block caller untill a connection reqquest arrives.
+
+5)Connect:	Actively attempt to establish a connection.
+
+6)Send:		Send some data over the connection.
+
+7)Receive:	Receive some data over the connection.
+
+8)Close:	Release the connection.
